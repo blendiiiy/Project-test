@@ -67,7 +67,7 @@ export default function Header() {
 
               {/* Dropdown Menu */}
               {isServicesOpen && (
-                <div className="absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg py-1 z-50 border">
+                <div className="absolute right-0 mt-2 w-56 bg-white rounded-md shadow-lg py-1 z-50 border">
                   <Link
                     href="/services"
                     className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 transition"
@@ -83,11 +83,25 @@ export default function Header() {
                     Drain Cleaning
                   </Link>
                   <Link
+                    href="/services/water-heater"
+                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 transition"
+                    onClick={() => setIsServicesOpen(false)}
+                  >
+                    Water Heater Repair & Installation
+                  </Link>
+                  <Link
                     href="/services/leak-detection"
                     className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 transition"
                     onClick={() => setIsServicesOpen(false)}
                   >
                     Leak Detection
+                  </Link>
+                  <Link
+                    href="/services/emergency-plumbing"
+                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 transition"
+                    onClick={() => setIsServicesOpen(false)}
+                  >
+                    Emergency Plumbing
                   </Link>
                 </div>
               )}

@@ -1,8 +1,7 @@
-// app/services/drain-cleaning/page.tsx
 import Link from 'next/link';
 import Image from 'next/image';
 
-export default function DrainCleaningPage() {
+export default function WaterHeaterServices() {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
@@ -10,11 +9,11 @@ export default function DrainCleaningPage() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Drain Cleaning in Austin, TX
+              Water Heater Repair & Installation in Austin, TX
             </h1>
             <p className="text-xl text-blue-100 max-w-3xl mx-auto">
-              Professional drain cleaning services to keep your plumbing system flowing smoothly. 
-              Licensed experts with advanced equipment for all your drain cleaning needs.
+              Expert water heater repair and installation services. From traditional tank heaters 
+              to modern tankless systems, we handle all types of water heaters.
             </p>
           </div>
         </div>
@@ -26,39 +25,41 @@ export default function DrainCleaningPage() {
           <div className="grid gap-12 lg:grid-cols-2 items-center">
             <div>
               <h2 className="text-3xl font-bold mb-6 text-gray-900">
-                Professional Drain Cleaning Services
+                Professional Water Heater Services
               </h2>
               
               <div className="space-y-6 text-lg text-gray-700">
                 <p>
-                  When your drains are clogged or slow, it can disrupt your entire household routine. 
-                  Our professional drain cleaning services in Austin use advanced technology and proven 
-                  methods to restore proper water flow and prevent future blockages. Whether you&apos;re 
-                  dealing with a kitchen sink that won&apos;t drain or a shower that&apos;s backing up, 
-                  our experienced technicians can quickly identify and resolve the issue.
+                  A properly functioning water heater is essential for your daily comfort and routine. 
+                  Whether you&apos;re experiencing cold showers, strange noises, or no hot water at all, 
+                  our certified technicians can diagnose and repair any water heater issue quickly and 
+                  efficiently. We work with all major brands and models, ensuring you get reliable 
+                  service regardless of your water heater type.
                 </p>
                 
                 <p>
-                  We offer comprehensive drain cleaning solutions for residential and commercial properties 
-                  throughout the Austin area. Our team is equipped with state-of-the-art equipment including 
-                  hydro jetting machines, video inspection cameras, and professional-grade drain snakes. 
-                  This allows us to tackle even the most stubborn clogs while providing you with a detailed 
-                  assessment of your plumbing system&apos;s condition.
+                  Our water heater services include repair, replacement, and installation of both 
+                  traditional tank heaters and modern tankless systems. We understand that water 
+                  heater problems can be urgent, which is why we offer same-day service for most 
+                  repairs and emergency appointments when needed. Our team is trained to handle 
+                  gas, electric, and hybrid water heaters, providing you with comprehensive 
+                  solutions for any situation.
                 </p>
                 
                 <p>
-                  Don&apos;t let minor drain issues turn into major plumbing problems. Regular drain 
-                  cleaning not only prevents clogs but also extends the life of your plumbing system and 
-                  saves you money on costly repairs. Our preventive maintenance programs help keep your 
-                  drains flowing freely year-round.
+                  When it comes to water heater installation, we take pride in our attention to 
+                  detail and commitment to safety. Every installation includes proper permits, 
+                  code compliance, and thorough testing to ensure your new water heater operates 
+                  at peak efficiency. We also offer maintenance services to extend the life of 
+                  your water heater and prevent costly breakdowns.
                 </p>
               </div>
             </div>
 
             <div className="text-center">
               <Image
-                src="/images/drain-cleaning.svg"
-                alt="Professional Drain Cleaning Services"
+                src="/images/hero-plumbing.svg"
+                alt="Water Heater Repair and Installation Services"
                 width={400}
                 height={300}
                 className="mx-auto"
@@ -68,47 +69,54 @@ export default function DrainCleaningPage() {
         </div>
       </section>
 
-      {/* Services We Offer */}
+      {/* Services Details */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-6">
           <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">
-            Drain Cleaning Services We Offer
+            Water Heater Services We Offer
           </h2>
           
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             <div className="bg-gray-50 rounded-lg p-6">
               <div className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center mb-4">
                 <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold mb-3 text-gray-900">Kitchen Sink Drain Cleaning</h3>
+              <h3 className="text-xl font-semibold mb-3 text-gray-900">Repair Services</h3>
               <p className="text-gray-600 mb-4">
-                Remove grease, food particles, and soap buildup from kitchen drains.
+                Quick diagnosis and repair of water heater problems including leaks, 
+                temperature issues, and pilot light problems.
               </p>
               <ul className="text-sm text-gray-600 space-y-1">
-                <li>• Grease removal</li>
-                <li>• Food particle clearing</li>
-                <li>• Soap buildup removal</li>
-                <li>• Garbage disposal cleaning</li>
+                <li>• Thermostat replacement</li>
+                <li>• Element replacement</li>
+                <li>• Valve repairs</li>
+                <li>• Pilot light issues</li>
+                <li>• Pressure relief valve</li>
+                <li>• Anode rod replacement</li>
               </ul>
             </div>
 
             <div className="bg-gray-50 rounded-lg p-6">
               <div className="w-12 h-12 bg-green-600 rounded-lg flex items-center justify-center mb-4">
                 <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 14v3m4-3v3m4-3v3M3 21h18M3 10h18M3 7l9-4 9 4M4 10h16v11H4V10z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold mb-3 text-gray-900">Bathroom Drain Cleaning</h3>
+              <h3 className="text-xl font-semibold mb-3 text-gray-900">Installation</h3>
               <p className="text-gray-600 mb-4">
-                Clear hair, soap scum, and mineral deposits from bathroom fixtures.
+                Professional installation of new water heaters with proper permits 
+                and code compliance.
               </p>
               <ul className="text-sm text-gray-600 space-y-1">
-                <li>• Shower drain cleaning</li>
-                <li>• Bathtub drain clearing</li>
-                <li>• Sink drain maintenance</li>
-                <li>• Hair removal</li>
+                <li>• Tank water heaters</li>
+                <li>• Tankless systems</li>
+                <li>• Gas and electric</li>
+                <li>• Permits included</li>
+                <li>• Code compliance</li>
+                <li>• Safety testing</li>
               </ul>
             </div>
 
@@ -118,15 +126,18 @@ export default function DrainCleaningPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold mb-3 text-gray-900">Main Sewer Line Cleaning</h3>
+              <h3 className="text-xl font-semibold mb-3 text-gray-900">Maintenance</h3>
               <p className="text-gray-600 mb-4">
-                Professional sewer line cleaning and root removal services.
+                Regular maintenance to extend the life of your water heater 
+                and prevent costly repairs.
               </p>
               <ul className="text-sm text-gray-600 space-y-1">
-                <li>• Sewer line inspection</li>
-                <li>• Root removal</li>
-                <li>• Hydro jetting</li>
-                <li>• Video inspection</li>
+                <li>• Annual inspections</li>
+                <li>• Tank flushing</li>
+                <li>• Anode rod replacement</li>
+                <li>• Efficiency optimization</li>
+                <li>• Sediment removal</li>
+                <li>• Performance testing</li>
               </ul>
             </div>
           </div>
@@ -137,23 +148,11 @@ export default function DrainCleaningPage() {
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-6">
           <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">
-            Why Choose Our Drain Cleaning Services?
+            Why Choose Our Water Heater Services?
           </h2>
           
           <div className="grid gap-8 md:grid-cols-2">
             <div className="space-y-6">
-              <div className="flex items-start">
-                <div className="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center mr-4 mt-1">
-                  <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-                  </svg>
-                </div>
-                <div>
-                  <h3 className="font-semibold text-gray-900 mb-2">Advanced Equipment</h3>
-                  <p className="text-gray-600">State-of-the-art hydro jetting machines and video inspection cameras for thorough cleaning.</p>
-                </div>
-              </div>
-
               <div className="flex items-start">
                 <div className="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center mr-4 mt-1">
                   <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -162,7 +161,7 @@ export default function DrainCleaningPage() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900 mb-2">Licensed Technicians</h3>
-                  <p className="text-gray-600">Certified plumbers with years of experience in drain cleaning and plumbing repair.</p>
+                  <p className="text-gray-600">Certified plumbers with specialized training in water heater systems.</p>
                 </div>
               </div>
 
@@ -173,13 +172,11 @@ export default function DrainCleaningPage() {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-gray-900 mb-2">24/7 Emergency Service</h3>
-                  <p className="text-gray-600">Available around the clock for urgent drain problems that can&apos;t wait.</p>
+                  <h3 className="font-semibold text-gray-900 mb-2">Same-Day Service</h3>
+                  <p className="text-gray-600">Quick response times for urgent water heater repairs and emergencies.</p>
                 </div>
               </div>
-            </div>
 
-            <div className="space-y-6">
               <div className="flex items-start">
                 <div className="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center mr-4 mt-1">
                   <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -188,10 +185,12 @@ export default function DrainCleaningPage() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900 mb-2">Competitive Pricing</h3>
-                  <p className="text-gray-600">Fair and transparent pricing with no hidden fees or surprise charges.</p>
+                  <p className="text-gray-600">Fair and transparent pricing with detailed estimates and no hidden fees.</p>
                 </div>
               </div>
+            </div>
 
+            <div className="space-y-6">
               <div className="flex items-start">
                 <div className="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center mr-4 mt-1">
                   <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -200,7 +199,7 @@ export default function DrainCleaningPage() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900 mb-2">Warranty Included</h3>
-                  <p className="text-gray-600">All our drain cleaning work comes with a satisfaction guarantee.</p>
+                  <p className="text-gray-600">All repairs and installations come with comprehensive warranty coverage.</p>
                 </div>
               </div>
 
@@ -216,6 +215,18 @@ export default function DrainCleaningPage() {
                   <p className="text-gray-600">Serving Austin and surrounding areas with quick response times.</p>
                 </div>
               </div>
+
+              <div className="flex items-start">
+                <div className="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center mr-4 mt-1">
+                  <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                  </svg>
+                </div>
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">Energy Efficient Options</h3>
+                  <p className="text-gray-600">Expert advice on energy-efficient water heaters to save you money.</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -225,11 +236,11 @@ export default function DrainCleaningPage() {
       <section className="py-16 bg-blue-600 text-white">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            Need Professional Drain Cleaning?
+            Need Water Heater Service?
           </h2>
           <p className="text-xl mb-8 text-blue-100">
-            Don&apos;t let clogged drains disrupt your daily routine. Contact our professional team 
-            for reliable drain cleaning services in Austin, TX.
+            Contact us today for a free estimate on water heater repair or installation 
+            in Austin, TX. Don&apos;t suffer through cold showers any longer!
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link

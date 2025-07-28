@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -32,7 +33,13 @@ export default function Home() {
             </div>
             <div className="text-center">
               <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8">
-                <div className="text-6xl mb-4">🔧</div>
+                <Image
+                  src="/images/hero-plumbing.svg"
+                  alt="Professional Plumbing Services"
+                  width={300}
+                  height={200}
+                  className="mx-auto mb-4"
+                />
                 <h3 className="text-2xl font-semibold mb-2">24/7 Emergency</h3>
                 <p className="text-blue-100">Call: (555) 123-4567</p>
               </div>
@@ -55,10 +62,14 @@ export default function Home() {
 
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             <div className="bg-white rounded-lg shadow-lg p-8 hover:shadow-xl transition">
-              <div className="w-16 h-16 bg-blue-100 rounded-lg flex items-center justify-center mb-6">
-                <svg className="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
-                </svg>
+              <div className="text-center mb-6">
+                <Image
+                  src="/images/drain-cleaning.svg"
+                  alt="Drain Cleaning"
+                  width={200}
+                  height={150}
+                  className="mx-auto"
+                />
               </div>
               <h3 className="text-xl font-semibold mb-4">Drain Cleaning</h3>
               <p className="text-gray-600 mb-6">
@@ -73,10 +84,14 @@ export default function Home() {
             </div>
 
             <div className="bg-white rounded-lg shadow-lg p-8 hover:shadow-xl transition">
-              <div className="w-16 h-16 bg-red-100 rounded-lg flex items-center justify-center mb-6">
-                <svg className="w-8 h-8 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.732 16.5c-.77.833.192 2.5 1.732 2.5z" />
-                </svg>
+              <div className="text-center mb-6">
+                <Image
+                  src="/images/leak-detection.svg"
+                  alt="Leak Detection"
+                  width={200}
+                  height={150}
+                  className="mx-auto"
+                />
               </div>
               <h3 className="text-xl font-semibold mb-4">Leak Detection</h3>
               <p className="text-gray-600 mb-6">
@@ -91,10 +106,14 @@ export default function Home() {
             </div>
 
             <div className="bg-white rounded-lg shadow-lg p-8 hover:shadow-xl transition">
-              <div className="w-16 h-16 bg-green-100 rounded-lg flex items-center justify-center mb-6">
-                <svg className="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
+              <div className="text-center mb-6">
+                <Image
+                  src="/images/team-working.svg"
+                  alt="Repairs & Installations"
+                  width={200}
+                  height={150}
+                  className="mx-auto"
+                />
               </div>
               <h3 className="text-xl font-semibold mb-4">Repairs & Installations</h3>
               <p className="text-gray-600 mb-6">
