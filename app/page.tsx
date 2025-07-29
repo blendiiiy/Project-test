@@ -34,7 +34,7 @@ export default function Home() {
             <div className="text-center">
               <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8">
                 <Image
-                  src="/images/hero-plumbing.svg"
+                  src="/images/proffesional-plumbing-services.jpg"
                   alt="Professional Plumbing Services"
                   width={300}
                   height={200}
@@ -64,7 +64,7 @@ export default function Home() {
             <div className="bg-white rounded-lg shadow-lg p-8 hover:shadow-xl transition">
               <div className="text-center mb-6">
                 <Image
-                  src="/images/drain-cleaning.svg"
+                  src="/images/drain-cleaning.jpg"
                   alt="Drain Cleaning"
                   width={200}
                   height={150}
@@ -86,7 +86,7 @@ export default function Home() {
             <div className="bg-white rounded-lg shadow-lg p-8 hover:shadow-xl transition">
               <div className="text-center mb-6">
                 <Image
-                  src="/images/leak-detection.svg"
+                  src="/images/leak-detection.jpg"
                   alt="Leak Detection"
                   width={200}
                   height={150}
@@ -108,7 +108,7 @@ export default function Home() {
             <div className="bg-white rounded-lg shadow-lg p-8 hover:shadow-xl transition">
               <div className="text-center mb-6">
                 <Image
-                  src="/images/team-working.svg"
+                  src="/images/repairs&installations.jpg"
                   alt="Repairs & Installations"
                   width={200}
                   height={150}
